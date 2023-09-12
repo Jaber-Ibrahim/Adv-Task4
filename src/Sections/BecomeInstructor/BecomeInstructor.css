@@ -1,0 +1,94 @@
+.BecomeInstructor_section {
+    margin-top: 5rem;
+    background-color: var(--grey_color_lighter);
+    padding: 5rem 0;
+
+}
+.BecomeInstructor_section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BecomeInstructor_section .BecomeInstructor_section_left {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .Main_Title {
+    width: fit-content;
+    text-align: start;
+    margin: 5rem 0;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .Main_Title_p{
+    color: var(--grey_color);
+    text-transform: capitalize;
+}
+
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_span {
+    color: var(--grey_color);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_details {
+    margin-top: 4rem;
+    display: flex;
+    gap: 4rem;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_details_col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_details_span_num {
+    color: var(--main_color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_details_span_stuff {
+    color: var(--grey_color);
+    font-size: 2rem;
+}
+
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_icon {
+    color: var(--main_color);
+    margin-right: .5rem;
+    font-size: 2rem;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .BecomeInstructor_section_left_buttons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .PrimaryButton {
+    background-color: var(--main_color);
+}
+.BecomeInstructor_section .BecomeInstructor_section_left .PrimaryButton.Second {
+    background-color: var(--white_color);
+    color: var(--main_color);
+}
+.BecomeInstructor_section .BecomeInstructor_section_right {}
+
+
+.BecomeInstructor_section .BecomeInstructor_section_right .BecomeInstructor_section_right_img {
+    width: 100%;
+}
+
+
+@media(max-width : 650px) {
+    .BecomeInstructor_section .container{
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .BecomeInstructor_section .BecomeInstructor_section_left {
+        align-items: center;
+    }
+    .BecomeInstructor_section .BecomeInstructor_section_left .Main_Title {
+        text-align: center;
+    }
+}

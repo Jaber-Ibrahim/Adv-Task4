@@ -1,0 +1,21 @@
+.ChooseAccordion_section {
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.ChooseAccordion_section .ChooseAccordion_section_img {
+    /* flex-basis: 33%; */
+}
+
+.ChooseAccordion_section .Main_Title {
+    margin-top: 0;
+}
+
+
+@media(max-width:992px) {
+    .ChooseAccordion_section .ChooseAccordion_section_img {
+        display: none;
+    }
+}

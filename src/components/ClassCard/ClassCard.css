@@ -1,0 +1,29 @@
+.ClassCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--grey_color_para);
+    border-radius: .5rem;
+    padding: 2rem;
+} 
+.ClassCard .ClassCard_icon {
+    color: var(--main_color);
+    border: 1px solid var(--grey_color_para);
+    font-size: 5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.ClassCard .ClassCard_h1 {
+    font-size: 2.5rem;
+    color: var(--main_color);
+    text-transform: capitalize;
+}
+
+.ClassCard .ClassCard_p {
+    font-size: 1.5rem;
+    color: var(--grey_color_para);
+    text-transform: capitalize;
+    text-align: center;
+}

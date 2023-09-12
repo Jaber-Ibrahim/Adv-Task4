@@ -1,0 +1,6 @@
+export {default as BecomeInstructor} from "./BecomeInstructor/BecomeInstructor.jsx"
+export {default as EducationClass} from "./EducationClass/EducationClass.jsx"
+export {default as Courses} from "./Courses/Courses.jsx"
+export {default as SchoolNews} from "./SchoolNews/SchoolNews.jsx"
+export {default as Pricing} from "./Pricing/Pricing.jsx"
+export {default as ChooseUS} from "./ChooseUS/ChooseUS.jsx"

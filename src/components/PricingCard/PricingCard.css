@@ -1,0 +1,33 @@
+.PricingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid var(--grey_color_para);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.PricingCard .PricingCard_title {
+    font-size: 3rem;
+    color: var(--main_color);
+    text-transform: capitalize;
+}
+.PricingCard .PricingCard_price {
+    font-size: 1.8rem;
+    color: var(--grey_color_para);
+}
+
+.PricingCard .PricingCard_span {
+    color: var(--main_color);
+    font-size: 3rem;
+}
+
+.PricingCard .PricingCard_p {
+    font-size: 1.8rem;
+    color: var(--grey_color_para);
+    text-align: center;
+}
+.PricingCard .PrimaryButton {
+    background-color: var(--main_color);
+}

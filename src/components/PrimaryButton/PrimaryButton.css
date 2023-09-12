@@ -1,0 +1,12 @@
+.PrimaryButton {
+    color: var(--main_color_lighter);
+    font-size: 1.2rem;
+    background-color: var(--main_color_light);
+    text-transform: uppercase;
+    border-radius: 2rem;
+    width: max-content;
+    padding: 1rem 1.5rem;
+
+}
+
+

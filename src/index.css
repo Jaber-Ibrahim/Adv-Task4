@@ -1,0 +1,39 @@
+:root {
+  --main_color : #2469c4;
+  --blue_color : #136ad5;
+  --main_color_low_opacity :  rgb(52 108 213 / 70%);;
+  --main_color_dark :  #346cd5;
+  --li_color : #8aaadd;
+  --main_color_light :  #00aeff;
+  --main_color_lighter :  #f3f7fd;;
+  --grey_color : #4f555b ;
+  --grey_color_lighter : rgb(248 249 250 / 40%);
+  --grey_color_para : #bec3c1; ;
+  --grey_color_span : #cfcbde; ;
+  --white_color : #fff;
+  --orangr_color :  #ffc107;
+  --main_delay : .5s
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+@media(max-width:992px) {
+  * {
+    font-size: 45%;
+  }
+}

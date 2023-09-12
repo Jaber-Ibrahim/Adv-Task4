@@ -1,0 +1,51 @@
+
+.ChooseAccordion .ChooseAccordion_item {
+    user-select: none;
+}
+
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_head {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    position: relative;
+    text-transform: capitalize;
+    transition: all var(--main_delay);
+    cursor: pointer;
+}
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_head:hover,
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_head.active {
+    color: var(--white_color);
+    background-color: var(--blue_color);
+}
+
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_head::before {
+    position: absolute;
+    content: "\002B";
+    left: .5rem;
+}
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_head.active::before {
+    position: absolute;
+    content: "\2212";
+    left: .5rem;
+}
+
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_body {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all var(--main_delay);
+}
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_body.active {
+    max-height: 50rem;
+}
+
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_body_img {
+    width: 100%;
+}
+
+.ChooseAccordion .ChooseAccordion_item .ChooseAccordion_item_body_p {
+    font-size: 1.5rem;
+    color: var(--grey_color_para);
+}

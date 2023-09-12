@@ -1,0 +1,36 @@
+.CategoryCard_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 4rem;
+}
+
+.CategoryCard_container .CategoryCard {
+    background-color: var(--main_color_lighter);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.CategoryCard_container .CategoryCard .CategoryCard_icon {
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--white_color);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CategoryCard_container .CategoryCard .CategoryCard_icon .CategoryCard_icon_i {
+    font-size: 4rem;
+    color: var(--main_color_light);
+}
+.CategoryCard_container .CategoryCard .CategoryCard_info .CategoryCard_h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--grey_color);
+}
+.CategoryCard_container .CategoryCard .CategoryCard_info .CategoryCard_span {
+    font-size: 1.5rem;
+    color: var(--grey_color_span);
+}

@@ -1,0 +1,88 @@
+.Courses_section {
+    margin-top: 5rem;
+    background-color: var(--grey_color_lighter);
+    padding: 5rem 0;
+}
+
+.Courses_section .Courses_section_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 4rem;
+}
+
+.Courses_section .Courses_section_container .Courses_section_card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white_color);
+    gap: 1rem;
+    border-radius: 2rem;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_img {
+    width: 100%;
+}
+
+
+.Courses_section .Courses_section_card .Courses_section_card_info {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_info_num {
+    color: var(--main_color);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_info_rate {
+    display: flex;
+    align-items: center;
+    color: var(--orangr_color);
+    font-size: 1.5rem;
+}
+.Courses_section .Courses_section_card .Courses_section_card_info_icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_title {
+    padding: 0 2.5rem;
+    font-size: 2.2rem;
+    color: var(--grey_color);
+    text-transform: capitalize;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_desc {
+    padding: 0 2.5rem;
+    color: var(--grey_color_para);
+    font-size: 1.5rem;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_tail {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 2rem 2rem 4rem;
+    align-items: center;
+    border-top: 2px solid var(--grey_color_para);
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_price {
+    font-size: 2rem;
+    color: var(--grey_color);
+    font-weight: 600;
+}
+
+.Courses_section .Courses_section_card .Courses_section_card_more {
+    font-size: 2rem;
+    color: var(--main_color);
+    text-transform: capitalize;
+}
+
+
+
+
